@@ -1,0 +1,199 @@
+body {
+    background-color: #403C53;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#main {
+    height: 90vh;
+    width: 90vw;
+    background-image: url("images/bg.jpg");
+    background-size:cover;
+	background-repeat:no-repeat;
+    border: 8px #A09EAD solid;
+    border-radius: 25px;
+}
+
+#points {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: space-between; 
+}
+
+#points div:nth-of-type(2) {
+    font-weight: 600;
+    color: white;
+    font-family: prompt;
+    margin-right: 1em;
+}
+
+#points div:nth-of-type(1) {
+    background-color: #403C53;
+    border: 8px #A09EAD solid;
+    border-radius: 25px;
+    display: flex;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: prompt;
+    height: 5em;
+    width: 5em;
+    margin-top: -1.5em;
+    margin-left: -1.5em;
+}
+
+#points p {
+    padding: 0.5em;
+}
+
+#points img {
+    height: 1.5em;
+}
+
+#winner {
+    display: flex;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: prompt;
+    font-size: 2em;
+}
+
+#cards {
+    height: 18em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cards img {
+    padding: 2em;
+    height: 70%;
+}
+
+#players {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#players p {
+    font-weight: 600;
+    color: white;
+    font-family: prompt;
+}
+
+#players p:nth-of-type(1) {
+    margin-right: 6em;
+}
+
+#players p:nth-of-type(2) {
+    margin-left: 6em;
+}
+
+#buttons, #coins {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+a {
+    display: flex;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-family: prompt;
+    background-color: #3C384D;
+    padding: 1em;
+    border-radius: 52px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.208);
+    margin-left: 2em;
+}
+
+a:nth-of-type(1) {
+    width: 10em;
+}
+
+#coins {
+    margin-right: 2em;
+}
+
+#coins a {
+    width: 2em;
+}
+
+
+.shake-horizontal {
+	-webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	        animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}
+@keyframes shake-horizontal {
+  0%,
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  10%,
+  30%,
+  50%,
+  70% {
+    -webkit-transform: translateX(-10px);
+            transform: translateX(-10px);
+  }
+  20%,
+  40%,
+  60% {
+    -webkit-transform: translateX(10px);
+            transform: translateX(10px);
+  }
+  80% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  90% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+}
+
