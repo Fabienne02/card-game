@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+a:hover {
+    cursor: pointer;
+}
+
 main {
     display: flex;
     align-items: center;
@@ -78,6 +82,10 @@ main {
 #cards img {
     padding: 2em;
     height: 70%;
+}
+
+#cards img::after {
+    content: "hi";
 }
 
 #players {
