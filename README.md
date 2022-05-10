@@ -1,7 +1,7 @@
 # Card game - Real time 👻
 <img src="https://github.com/Fabienne02/card-game/blob/main/assets/front.jpg" width=530 >
 
-[Live demo](https://thawing-sands-88436.herokuapp.com/)
+[Live demo](https://card-game-real-time.herokuapp.com/)
 
 # Introduction
 Deze applicatie is een real time card game met max 2 players. Hierbij trekt elke speler een kaart
