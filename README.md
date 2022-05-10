@@ -26,7 +26,7 @@ en wint de speler met de hoogste kaart.
 Mijn concept is gebaseerd op de [card API](https://deckofcardsapi.com/) en een design an [Koen de Graaf](https://dribbble.com/shots/10954673-Shadow-creatures)
 Hierbij ben ik begonnen met een desgin in XD:
 
-<img src="https://github.com/Fabienne02/card-game/blob/main/assets/xd.jpg" width=530 >
+<img src="https://github.com/Fabienne02/card-game/blob/main/assets/front.jpg" width=530 >
 
 ## About
 **Card game is een gok spel met gebruik van online munten zonder echte waarde**
