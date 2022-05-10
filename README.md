@@ -76,7 +76,7 @@ npm install || npm start
 ## Data life cycle 
 Mijn huidige data life cycle tussen de Client, Socket, Server en API
 
-<img src="https://github.com/Fabienne02/card-game/blob/main/assets/data%20cycle.png">
+<img src="https://github.com/Fabienne02/card-game/blob/main/assets/data%20life%20cycle.png">
 <br>
 
 ## Desired data life cycle 
