@@ -12,6 +12,8 @@ en wint de speler met de hoogste kaart.
   - [Introduction](#introduction)
   - [Concept](#concept)
   - [About](#about)
+  - [Sockets](#sockets)
+  - [Deck of Cards API](#deck-of-cards-api)
   - [Gecodeerd met](#gecodeerd-met)
   - [Features](#features)
   - [Wishlist](#wishlist)
@@ -51,11 +53,13 @@ socket.on('usernames', (connectedUsers) => {
 ```
 <br>
 En op de server gebruik lines om de gestuurde data te verwerken zoals socket.on en io.on
+
 ```
 io.on('connection', (socket) => {
     console.log('a user connected')
     })
 ```
+
 ```
 socket.on('userClicked', () => {
             io.emit('connection', <data>)
