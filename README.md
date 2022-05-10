@@ -16,8 +16,8 @@ en wint de speler met de hoogste kaart.
   - [Features](#features)
   - [Wishlist](#wishlist)
   - [Installing](#installing)
-  - [Activity diagram](#activity-diagram)
-  - [Presentation](#presentation)
+  - [Data life Cycle](#data-life-cycle)
+  - [Desired Data Life Cycle](#desired-data-life-cycle)
   - [Sources](#sources)
   - [Author](#author)
   - [License](#license)
@@ -73,7 +73,16 @@ npm install || npm start
 ```
 6. Open de de localhost:3003 in je browser
 
-## Data life cycle ♻️
+## Data life cycle 
+Mijn huidige data life cycle tussen de Client, Socket, Server en API
+
+<img src="https://github.com/Fabienne02/card-game/blob/main/assets/data%20cycle.png">
+<br>
+
+## Desired data life cycle 
+Helaas ben ik niet aan alles toegkomen daarbij heb ik mijn desired data life cycle
+
+<img src="https://github.com/Fabienne02/card-game/blob/main/assets/data-cycle-2.jpg">
 
 ## Sources
 - [Code hulp bron](https://developer.mozilla.org/en-US/)
