@@ -38,6 +38,43 @@ Lees de code comments voor meer informatie.<br>
 Card game maakt gebruik van socket.io om multiplayer real time web mogelijk te maken<br>
 Hierbij stuur je informatie door van front naar de back aan de hand van socket events<br>
 
+## Sockets
+Socket.IO is een bibliotheek die low-latency, bidirectionele en op gebeurtenissen gebaseerde communicatie tussen een client en een server mogelijk maakt.<br>
+Het is bovenop het WebSocket-protocol gebouwd en biedt extra garanties, zoals terugval op HTTP long-polling of automatisch opnieuw verbinden.<br><br>
+
+Hierbij gebruik je code op de client zoals:
+```
+socket.on('usernames', (connectedUsers) => {
+    console.log(connectedUsers)
+    socket.emit('user-disconnect', username);
+    })
+```
+<br>
+En op de server gebruik lines om de gestuurde data te verwerken zoals socket.on en io.on
+```
+io.on('connection', (socket) => {
+    console.log('a user connected')
+    })
+```
+```
+socket.on('userClicked', () => {
+            io.emit('connection', <data>)
+        })
+```
+
+## Deck of Cards API
+De Deck of Cards API geschreven door Chase Roberts is een API die bestaat uit een dek kaarten, hun values, images, suits en code.
+De API werk zoals in de [documentatie](http://deckofcardsapi.com/) beschreven met API HTTPS links. 
+<br>
+1. Eerst shuffle je het deck: http://deckofcardsapi.com/
+2. Vervolgens trek card-game een kaart per socket: http://deckofcardsapi.com/api/deck/<<deck_id>>/draw/?count=1
+<br>
+Voor het fetchen van de API links gebruik ik [Node.fetch](https://www.npmjs.com/package/node-fetch)<br>
+Deze instaleer je door:
+```
+npm install node-fetch@2
+```
+
 ## Gecodeerd met
 Quotes is gecodeerd in EJS (node), Javascript en Socket.io <br>
 Client & server side rendering.
@@ -89,6 +126,7 @@ Helaas ben ik niet aan alles toegkomen daarbij heb ik mijn desired data life cyc
 - [API](https://deckofcardsapi.com/)
 - [Stackoverflow](https://stackoverflow.com/)
 - [Socket.io](https://socket.io/)
+- [fetch in node](https://www.npmjs.com/package/node-fetch)
 
 
 ## Author
