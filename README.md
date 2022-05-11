@@ -29,6 +29,9 @@ Mijn concept is gebaseerd op de [card API](https://deckofcardsapi.com/) en een d
 Hierbij ben ik begonnen met een desgin in XD:
 
 <img src="https://github.com/Fabienne02/card-game/blob/main/assets/xd.png" width=530 >
+<br>
+Het idee is dat je begint met 50 punten, deze kan elke speler inleggen. Er word voor beide partijen een random kaart getrokken en hierbij wint de speler met de hoogste kaart. De punten gaan naar de winnende speler. Het spel is over wanneer iemand geen punten meer heeft. Deze loop met punten heb ik niet voor elkaar gekregen. Om de loop toch compleet te krijgen word er na de value berekening een nieuwe pagina geladen die een play again button heeft zodat de hoofdpagina opnieuw geladen word.
+Dit is slechts een oplossing om de loop in het prototype te manipuleren.
 
 ## About
 **Card game is een gok spel met gebruik van online munten zonder echte waarde**
